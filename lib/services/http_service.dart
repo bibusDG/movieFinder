@@ -14,7 +14,7 @@ class RemoteService {
   final _path = "/api/movies";
   final _query = {"sort":choiceList['rank'],"type":"movies","year":choiceList['year'],"genres":choiceList['category']};
   final Map<String, String> _headers = {
-    "x-rapidapi-key": "d5d114ee38msh7189be4c4d71f31p180dbfjsn9d5bd40f938f",
+    "x-rapidapi-key": "MyApiKey",
     "x-rapidapi-host": "movies-app1.p.rapidapi.com",
   };
 
